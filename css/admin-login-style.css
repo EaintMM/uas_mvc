@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(77, 208, 225);
+}
+
+span { 
+    display: flex; 
+    flex-direction: row; 
+} 
+  
+span:before, 
+span:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 1px solid rgb(143, 140, 140); 
+    
+    margin: auto; 
+   
+} 
+#basic-addon1{
+    /*background-color: rgb(232, 240, 254);*/
+    background-color: white;
+    
+}
+.bx{
+    /*background-color: rgb(232, 240, 254); */
+    border-left: none;
+}
